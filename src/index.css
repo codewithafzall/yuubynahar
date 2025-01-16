@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'CustomFont';
+    src: url('./assets/fonts/circula-medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.circula{
+    font-family: "CustomFont",sans-serif;
+}
+nav{
+  font-family: "Poppins", serif;
+  font-weight: 400;
+}
+body{
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  background: linear-gradient(180deg, #f7f4ed 20%, #b4a255 20% 100%);
+}
